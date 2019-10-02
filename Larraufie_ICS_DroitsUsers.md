@@ -483,7 +483,7 @@ chmod 602 fic
 ```
 - chmod 653 fic en sachant que les droits initiaux de fic sont 711
 ```bash
-chmod u-x,g+r,o+w
+chmod u-x,g+r,o+w fic
 ```
 - chmod u+x,g=w,o-r fic en sachant que les droits initiaux de fic sont r---r-x---
 ```bash
